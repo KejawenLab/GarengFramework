@@ -1,130 +1,21 @@
-# Client Platform #
+# Gareng Framework #
 
-### What
+## Apa itu Gareng Framework
 
-Client platform is simple framework that aim to simplify Frontend Developer that working with [API Platform](https://api-platform.com)
+Gareng Framework adalah micro framework yang bertujuan sebagai Web API Consumer terutama [API Platform](https://api-platform.com).
 
-### Installation
+Gareng Framework sangat efektif sebagai Consumer REST API berbasis [Hydra](http://www.hydra-cg.com) atau [JSON-LD](https://json-ld.org)
 
-Add `composer.json`
+## Instalasi
 
-```json
-{
-    "require": {
-        "ad3n/client-platform": "~1.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "App\\": "src/"
-        }
-    }
-}
+Untuk instalasi, saya menyarankan Anda menginstall [Gareng Skeleton](https://github.com/KejawenLab/GarengSkeleton) untuk mempermudah dan mempercepat proses development.
 
-```
+## Fitur
 
-Create configuration file `config.yml`
-
-```yaml
-app:
-    base_url: 'abc'
-    routes:
-        - { path: '/{a}/{b}', controller: 'App:HomeController@index', methods: ['GET'] }
-    template:
-        path: '/var/views'
-        cache_dir: '/var/cache'
-# Aktifkan jika ingin mencoba kerja event listenernya
-#    event_listeners:
-#        - { event: 'kernel.request', class: 'App\EventListener\FilterRequestListener', method: 'filter' }
-```
-
-Create application class `Application.php`
-
-```php
-<?php
-
-namespace App;
-
-use Ihsan\Client\Platform\Bootstrap;
-use Psr\Cache\CacheItemPoolInterface;
-
-class Application extends Bootstrap
-{
-    /**
-     * @param string $configDir
-     * @param CacheItemPoolInterface|null $cachePool
-     * @param array $values
-     */
-    public function __construct($configDir, CacheItemPoolInterface $cachePool = null, array $values = array())
-    {
-        parent::__construct($cachePool, $values);
-        $this->boot($configDir);
-    }
-
-    /**
-     * @return string
-     */
-    protected function projectDir()
-    {
-        return __DIR__.'/..';
-    }
-}
-
-```
-
-Create Front Controller aka `index.php`
-
-```php
-<?php
-
-require __DIR__.'/../vendor/autoload.php';
-
-use App\Application;
-use Symfony\Component\HttpFoundation\Request;
-
-$configDir = __DIR__.'/../app/config';
-
-$request = Request::createFromGlobals();
-
-$app = new Application();
-$app->boot($configDir);
-$app->handle($request);
-
-```
-
-Create Controller `HomeController.php`
-
-```php
-<?php
-
-namespace App\Controller;
-
-use Ihsan\Client\Platform\Controller\AbstractController;
-use Symfony\Component\HttpFoundation\Response;
-
-class HomeController extends AbstractController
-{
-    public function indexAction()
-    {
-        //$this->get('url', $args);
-        //$this->post('url', $args);
-        //$this->put('url', $args);
-        //$this->delete('url', $args);
-        //$this->client
-        //Client is instance of \Ihsan\Client\Platform\Api\ClientInterface
-        //$this->renderResponse('view_name', $viewArgs);
-        
-        return new Response('Hello World!.');
-    }
-}
-
-```
-
-For more information about controller, please read [`Ihsan\Client\Platform\Controller\AbstractController.php`](src/Controller/AbstractController.php)
-
-### Configuration
-
-For more information about configuration, please read [`Ihsan\Client\Platform\Configuration\Configuration.php#L78-L166`](src/Configuration/Configuration.php#L78-L166)
-
-### Example
-
-Check: [https://github.com/ad3n/ClientApplication](https://github.com/ad3n/ClientApplication)
+- [X] Support StackPHP Middlewares
+- [X] Support Hydra, JSON-LD, JSON serta XML
+- [X] YAML Configuration
+- [X] Authentication System via JWT Token
+- [X] Templating via Twig
+- [X] Routing System
+- [X] Event System
