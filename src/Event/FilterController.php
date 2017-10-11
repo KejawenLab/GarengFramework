@@ -1,8 +1,8 @@
 <?php
 
-namespace Ihsan\Client\Platform\Event;
+namespace KejawenLab\Framework\GarengFramework\Event;
 
-use Ihsan\Client\Platform\Controller\ControllerInterface;
+use KejawenLab\Framework\GarengFramework\Controller\ControllerInterface;
 use Symfony\Component\EventDispatcher\Event;
 
 /**

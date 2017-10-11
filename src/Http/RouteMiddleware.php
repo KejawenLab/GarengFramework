@@ -1,10 +1,10 @@
 <?php
 
-namespace Ihsan\Client\Platform\Http;
+namespace KejawenLab\Framework\GarengFramework\Http;
 
-use Ihsan\Client\Platform\Controller\ControllerResolver;
-use Ihsan\Client\Platform\DependencyInjection\ContainerAwareInterface;
-use Ihsan\Client\Platform\DependencyInjection\ContainerAwareTrait;
+use KejawenLab\Framework\GarengFramework\Controller\ControllerResolver;
+use KejawenLab\Framework\GarengFramework\DependencyInjection\ContainerAwareInterface;
+use KejawenLab\Framework\GarengFramework\DependencyInjection\ContainerAwareTrait;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\HttpKernelInterface;

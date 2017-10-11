@@ -1,6 +1,6 @@
 <?php
 
-namespace Ihsan\Client\Platform\Template;
+namespace KejawenLab\Framework\GarengFramework\Template;
 
 use Symfony\Component\HttpFoundation\Response;
 

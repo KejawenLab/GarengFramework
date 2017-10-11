@@ -1,6 +1,6 @@
 <?php
 
-namespace Ihsan\Client\Platform\Api;
+namespace KejawenLab\Framework\GarengFramework\Api;
 
 use GuzzleHttp\Client as GuzzleClient;
 use GuzzleHttp\Cookie\FileCookieJar;

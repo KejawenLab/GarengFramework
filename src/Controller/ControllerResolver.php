@@ -1,6 +1,6 @@
 <?php
 
-namespace Ihsan\Client\Platform\Controller;
+namespace KejawenLab\Framework\GarengFramework\Controller;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Matcher\UrlMatcher;

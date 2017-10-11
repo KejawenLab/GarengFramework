@@ -1,6 +1,6 @@
 <?php
 
-namespace Ihsan\Client\Platform\Api;
+namespace KejawenLab\Framework\GarengFramework\Api;
 
 /**
  * @author Muhamad Surya Iksanudin <surya.kejawen@gmail.com>

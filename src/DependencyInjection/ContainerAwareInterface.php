@@ -1,6 +1,6 @@
 <?php
 
-namespace Ihsan\Client\Platform\DependencyInjection;
+namespace KejawenLab\Framework\GarengFramework\DependencyInjection;
 
 use Pimple\Container;
 

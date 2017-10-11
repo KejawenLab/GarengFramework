@@ -1,6 +1,6 @@
 <?php
 
-namespace Ihsan\Client\Platform\Template;
+namespace KejawenLab\Framework\GarengFramework\Template;
 
 /**
  * @author Muhamad Surya Iksanudin <surya.kejawen@gmail.com>

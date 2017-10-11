@@ -1,10 +1,10 @@
 <?php
 
-namespace Ihsan\Client\Platform\EventListener;
+namespace KejawenLab\Framework\GarengFramework\EventListener;
 
-use Ihsan\Client\Platform\DependencyInjection\ContainerAwareInterface;
-use Ihsan\Client\Platform\DependencyInjection\ContainerAwareTrait;
-use Ihsan\Client\Platform\Http\KernelEvents;
+use KejawenLab\Framework\GarengFramework\DependencyInjection\ContainerAwareInterface;
+use KejawenLab\Framework\GarengFramework\DependencyInjection\ContainerAwareTrait;
+use KejawenLab\Framework\GarengFramework\Http\KernelEvents;
 use Symfony\Component\EventDispatcher\EventDispatcher;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;

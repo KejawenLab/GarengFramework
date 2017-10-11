@@ -1,11 +1,11 @@
 <?php
 
-namespace Ihsan\Client\Platform\Controller;
+namespace KejawenLab\Framework\GarengFramework\Controller;
 
-use Ihsan\Client\Platform\Api\ApiClientAwareInterface;
-use Ihsan\Client\Platform\Api\ApiClientAwareTrait;
-use Ihsan\Client\Platform\Template\TemplateAwareInterface;
-use Ihsan\Client\Platform\Template\TemplateAwareTrait;
+use KejawenLab\Framework\GarengFramework\Api\ApiClientAwareInterface;
+use KejawenLab\Framework\GarengFramework\Api\ApiClientAwareTrait;
+use KejawenLab\Framework\GarengFramework\Template\TemplateAwareInterface;
+use KejawenLab\Framework\GarengFramework\Template\TemplateAwareTrait;
 use Symfony\Component\HttpFoundation\Response;
 
 /**

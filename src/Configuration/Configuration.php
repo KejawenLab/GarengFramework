@@ -1,6 +1,6 @@
 <?php
 
-namespace Ihsan\Client\Platform\Configuration;
+namespace KejawenLab\Framework\GarengFramework\Configuration;
 
 use Pimple\Container;
 use Psr\Cache\CacheItemPoolInterface;

@@ -1,12 +1,12 @@
 <?php
 
-namespace Ihsan\Client\Platform\EventListener;
+namespace KejawenLab\Framework\GarengFramework\EventListener;
 
-use Ihsan\Client\Platform\Api\ApiClientAwareInterface;
-use Ihsan\Client\Platform\DependencyInjection\ContainerAwareInterface;
-use Ihsan\Client\Platform\DependencyInjection\ContainerAwareTrait;
-use Ihsan\Client\Platform\Event\FilterController;
-use Ihsan\Client\Platform\Template\TemplateAwareInterface;
+use KejawenLab\Framework\GarengFramework\Api\ApiClientAwareInterface;
+use KejawenLab\Framework\GarengFramework\DependencyInjection\ContainerAwareInterface;
+use KejawenLab\Framework\GarengFramework\DependencyInjection\ContainerAwareTrait;
+use KejawenLab\Framework\GarengFramework\Event\FilterController;
+use KejawenLab\Framework\GarengFramework\Template\TemplateAwareInterface;
 
 /**
  * @author Muhamad Surya Iksanudin <surya.kejawen@gmail.com>

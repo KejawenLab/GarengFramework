@@ -1,9 +1,9 @@
 <?php
 
-namespace Ihsan\Client\Platform\Http;
+namespace KejawenLab\Framework\GarengFramework\Http;
 
-use Ihsan\Client\Platform\Event\FilterController;
-use Ihsan\Client\Platform\Event\FilterResponse;
+use KejawenLab\Framework\GarengFramework\Event\FilterController;
+use KejawenLab\Framework\GarengFramework\Event\FilterResponse;
 use Symfony\Component\EventDispatcher\EventDispatcher;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;

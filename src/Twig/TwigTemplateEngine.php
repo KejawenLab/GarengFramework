@@ -1,8 +1,8 @@
 <?php
 
-namespace Ihsan\Client\Platform\Twig;
+namespace KejawenLab\Framework\GarengFramework\Twig;
 
-use Ihsan\Client\Platform\Template\TemplateEngineInterface;
+use KejawenLab\Framework\GarengFramework\Template\TemplateEngineInterface;
 use Symfony\Component\HttpFoundation\Response;
 
 /**

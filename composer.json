@@ -1,12 +1,12 @@
 {
-    "name": "ad3n/client-platform",
+    "name": "kejawenlab/gareng-framework",
     "license": "MIT",
     "type": "library",
     "description": "The Web Api Client Framework",
     "homepage": "https://github.com/ad3n/ClientPlatform",
     "authors": [
         {
-            "name": "Muhammad Surya Ihsanuddin",
+            "name": "Muhammad Surya Iksanudin",
             "email": "surya.kejawen@gmail.com",
             "homepage": "https://github.com/ad3n"
         }
@@ -28,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ihsan\\Client\\Platform\\": "src/"
+            "KejawenLab\\Framework\\GarengFramework\\": "src/"
         }
     }
 }

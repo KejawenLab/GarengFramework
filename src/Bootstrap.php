@@ -1,18 +1,18 @@
 <?php
 
-namespace Ihsan\Client\Platform;
+namespace KejawenLab\Framework\GarengFramework;
 
-use Ihsan\Client\Platform\Api\Client;
-use Ihsan\Client\Platform\Api\ClientInterface;
-use Ihsan\Client\Platform\Configuration\Configuration;
-use Ihsan\Client\Platform\Controller\ControllerResolver;
-use Ihsan\Client\Platform\EventListener\RegisterListenerMiddleware;
-use Ihsan\Client\Platform\Http\Kernel;
-use Ihsan\Client\Platform\Http\RouteMiddleware;
-use Ihsan\Client\Platform\Middleware\MiddlewareBuilder;
-use Ihsan\Client\Platform\Middleware\MiddlewareStack;
-use Ihsan\Client\Platform\Twig\TwigExtensionMiddleware;
-use Ihsan\Client\Platform\Twig\TwigTemplateEngine;
+use KejawenLab\Framework\GarengFramework\Api\Client;
+use KejawenLab\Framework\GarengFramework\Api\ClientInterface;
+use KejawenLab\Framework\GarengFramework\Configuration\Configuration;
+use KejawenLab\Framework\GarengFramework\Controller\ControllerResolver;
+use KejawenLab\Framework\GarengFramework\EventListener\RegisterListenerMiddleware;
+use KejawenLab\Framework\GarengFramework\Http\Kernel;
+use KejawenLab\Framework\GarengFramework\Http\RouteMiddleware;
+use KejawenLab\Framework\GarengFramework\Middleware\MiddlewareBuilder;
+use KejawenLab\Framework\GarengFramework\Middleware\MiddlewareStack;
+use KejawenLab\Framework\GarengFramework\Twig\TwigExtensionMiddleware;
+use KejawenLab\Framework\GarengFramework\Twig\TwigTemplateEngine;
 use Pimple\Container;
 use Psr\Cache\CacheItemPoolInterface;
 use Symfony\Component\Cache\Adapter\ApcuAdapter;

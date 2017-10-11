@@ -1,8 +1,8 @@
 <?php
 
-namespace Ihsan\Client\Platform\Middleware;
+namespace KejawenLab\Framework\GarengFramework\Middleware;
 
-use Ihsan\Client\Platform\DependencyInjection\ContainerAwareInterface;
+use KejawenLab\Framework\GarengFramework\DependencyInjection\ContainerAwareInterface;
 use Pimple\Container;
 use Stack\StackedHttpKernel;
 use Symfony\Component\HttpKernel\HttpKernelInterface;

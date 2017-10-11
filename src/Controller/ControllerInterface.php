@@ -1,6 +1,6 @@
 <?php
 
-namespace Ihsan\Client\Platform\Controller;
+namespace KejawenLab\Framework\GarengFramework\Controller;
 
 /**
  * @author Muhamad Surya Iksanudin <surya.kejawen@gmail.com>

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ihsan\Client\Platform\Api;
+namespace KejawenLab\Framework\GarengFramework\Api;
 
 use Symfony\Component\HttpFoundation\Response;
 

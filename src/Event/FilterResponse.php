@@ -1,6 +1,6 @@
 <?php
 
-namespace Ihsan\Client\Platform\Event;
+namespace KejawenLab\Framework\GarengFramework\Event;
 
 use Symfony\Component\EventDispatcher\Event;
 use Symfony\Component\HttpFoundation\Request;

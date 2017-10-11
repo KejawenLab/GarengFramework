@@ -1,9 +1,9 @@
 <?php
 
-namespace Ihsan\Client\Platform\Twig;
+namespace KejawenLab\Framework\GarengFramework\Twig;
 
-use Ihsan\Client\Platform\DependencyInjection\ContainerAwareInterface;
-use Ihsan\Client\Platform\DependencyInjection\ContainerAwareTrait;
+use KejawenLab\Framework\GarengFramework\DependencyInjection\ContainerAwareInterface;
+use KejawenLab\Framework\GarengFramework\DependencyInjection\ContainerAwareTrait;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\HttpKernelInterface;

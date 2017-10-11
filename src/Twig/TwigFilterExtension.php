@@ -1,6 +1,6 @@
 <?php
 
-namespace Ihsan\Client\Platform\Twig;
+namespace KejawenLab\Framework\GarengFramework\Twig;
 
 /**
  * @author Muhamad Surya Iksanudin <surya.kejawen@gmail.com>

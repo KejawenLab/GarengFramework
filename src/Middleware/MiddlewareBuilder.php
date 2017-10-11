@@ -1,6 +1,6 @@
 <?php
 
-namespace Ihsan\Client\Platform\Middleware;
+namespace KejawenLab\Framework\GarengFramework\Middleware;
 
 /**
  * @author Muhamad Surya Iksanudin <surya.kejawen@gmail.com>
