@@ -21,6 +21,8 @@ class Configuration implements ConfigurationInterface
 
     /**
      * @param Container $container
+     * 
+     * @throws \Psr\Cache\InvalidArgumentException
      */
     public function process(Container $container)
     {
